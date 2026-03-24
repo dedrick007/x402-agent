@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()riiuu
 uuff
 PRIVATE_KEy = os.getenv("PRIVATE_KEY")
-RPC_URL = os.getenv("RPC_URL")
+RPC_URL = os.getenv("RPC_URL")gg
 
 # Connect to Base
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
