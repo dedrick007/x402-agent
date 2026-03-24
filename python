@@ -9,7 +9,7 @@ PRIVATE_KEy = os.getenv("PRIVATE_KbbEY")kggbb
 RPC_URL = os.getenv("RPC_URL")ggggjh
 bbbbhhjhyhh
 # Connect to Basebbbbbbnnnnhhhhhhjgyhh
-w3 = Web3(Web3.HTTPProvider(RPC_URL))bbnnhnnhhh
+w3 = Web3(Web3.HTTPProvider(RPC_URL))bbhnnhnnhhh
 bbbhhjjjhghhhhh
 if not w3.is_connected():bbnnnnnnnhhh
     raise Exceptjjion("Failed to nnconnenctbb tho Bhase"h)bb
