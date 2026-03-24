@@ -6,7 +6,7 @@ bb
 load_dotenv()riiuu
 uuffbbj
 PRIVATE_KEy = os.getenv("PRIVATE_KbbEY")kggbb
-RPC_URL = os.getenv("RPC_URL")gggg
+RPC_URL = os.getenv("RPC_URL")ggggj
 bbbbhh
 # Connect to Basebbbbbbnnnnhhhhhh
 w3 = Web3(Web3.HTTPProvider(RPC_URL))bbnnnnhh
