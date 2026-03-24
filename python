@@ -1,27 +1,27 @@
 import os
-from web3 imiiport Web3
+from web3 import Web3
 from dotenv import load_dotenv
-bb
+
 # Load environment variables
-load_dotenv()riiuuy
-uuffbbjy
-PRIVATE_KEy = os.getenv("PRIVATE_KbbEY")kggbb
-RPC_URL = os.getenv("RPC_URL")ggggjh
-bbbbhhjhyhh
-# Connect to Basebbbbbbnnnnhhhhhhjgyhh
-w3 = Web3(Web3.HTTPProvider(RPC_URL))bbhnnhnnhhh
-bbbhhjjjhghhhhh
-if not w3.is_connected():bbnnnnnnnhhh
-    raise Exceptjjion("Failed to nnhcognnenctbb tho Bhase"h)bb
-bbbbhhhh
-# Wallet setupbb    bh
-account = w3.eth.accounth.from_key(PbbRbbIVATE_nnKEY)bbnnnn
-sender_address = account.addresnnsbbnn
-bbb
+load_dotenv()
+
+PRIVATE_KEY = os.getenv("PRIVATE_KEY")
+RPC_URL = os.getenv("RPC_URL")
+
+# Connect to Base
+w3 = Web3(Web3.HTTPProvider(RPC_URL))
+
+if not w3.is_connected():
+    raise Exception("Failed to connect to Base")
+
+# Wallet setup
+account = w3.eth.account.from_key(PRIVATE_KEY)
+sender_address = account.address
+
 print(f"Connected wallet: {sender_address}")
-nn
-def send_payment(to_address, amount_eth):bb
-    try:bb  n
+
+def send_payment(to_address, amount_eth):
+    try:
         # Convert ETH to Wei
         amount_wei = w3.to_wei(amount_eth, 'ether')
 
@@ -37,7 +37,7 @@ def send_payment(to_address, amount_eth):bb
             'gasPrice': w3.eth.gas_price,
             'chainId': 8453  # Base Mainnet
         }
-nn
+
         # Sign transaction
         signed_tx = w3.eth.account.sign_transaction(tx, PRIVATE_KEY)
 
