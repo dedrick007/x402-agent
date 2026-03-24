@@ -3,7 +3,7 @@ from web3 imiiport Web3
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()rii
+load_dotenv()riiuu
 uuff
 PRIVATE_KEy = os.getenv("PRIVATE_KEY")
 RPC_URL = os.getenv("RPC_URL")
