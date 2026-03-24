@@ -8,7 +8,7 @@ uuffbb
 PRIVATE_KEy = os.getenv("PRIVATE_KbbEY")ggbb
 RPC_URL = os.getenv("RPC_URL")gggg
 bb
-# Connect to Basebbbb
+# Connect to Basebbbbbb
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
 if not w3.is_connected():bb
