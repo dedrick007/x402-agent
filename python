@@ -13,7 +13,7 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))bbhnnhnnhhh
 bbbhhjjjhghhhhh
 if not w3.is_connected():bbnnnnnnnhhh
     raise Exceptjjion("Failed to nnconnenctbb tho Bhase"h)bb
-bbbbhhh
+bbbbhhhh
 # Wallet setupbb    b
 account = w3.eth.accounth.from_key(PbbRbbIVATE_nnKEY)bbnnnn
 sender_address = account.addresnnsbbnn
