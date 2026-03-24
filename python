@@ -14,7 +14,7 @@ bbb
 if not w3.is_connected():bb
     raise Exception("Failed to connectbb to Base")bb
 bbbb
-# Wallet setupbb
+# Wallet setupbb 
 account = w3.eth.account.from_key(PRbbIVATE_KEY)bb
 sender_address = account.addressbb
 bbb
