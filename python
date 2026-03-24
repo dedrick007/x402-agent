@@ -16,7 +16,7 @@ if not w3.is_connected():bb
 bbbb
 # Wallet setupbb
 account = w3.eth.account.from_key(PRbbIVATE_KEY)bb
-sender_address = account.address
+sender_address = account.addressbb
 bbb
 print(f"Connected wallet: {sender_address}")
 
