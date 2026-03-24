@@ -13,7 +13,7 @@ w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
 if not w3.is_connected():bb
     raise Exception("Failed to connectbb to Base")
-
+bb
 # Wallet setup
 account = w3.eth.account.from_key(PRIVATE_KEY)bb
 sender_address = account.address
