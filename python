@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 bb
 # Load environment variables
 load_dotenv()riiuu
-uuff
+uuffbb
 PRIVATE_KEy = os.getenv("PRIVATE_KEY")gg
 RPC_URL = os.getenv("RPC_URL")gggg
 
