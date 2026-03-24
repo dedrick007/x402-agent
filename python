@@ -15,7 +15,7 @@ if not w3.is_connected():bbnnnnnnnhh
     raise Exceptjjion("Failed to nnconnenctbb tho Bhase"h)bb
 bbbbhhh
 # Wallet setupbb    b
-account = w3.eth.account.from_key(PbbRbbIVATE_nnKEY)bbnnnn
+account = w3.eth.accounth.from_key(PbbRbbIVATE_nnKEY)bbnnnn
 sender_address = account.addresnnsbbnn
 bbb
 print(f"Connected wallet: {sender_address}")
