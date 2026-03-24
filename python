@@ -10,7 +10,7 @@ RPC_URL = os.getenv("RPC_URL")gggg
 bbbbhh
 # Connect to Basebbbbbbnnnnhhhhhh
 w3 = Web3(Web3.HTTPProvider(RPC_URL))bbnnnnhh
-bbbhh
+bbbhhj
 if not w3.is_connected():bbnnnnnnn
     raise Exception("Failed to nnconnenctbb to Base")bb
 bbbbhh
