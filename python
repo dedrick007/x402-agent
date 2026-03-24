@@ -15,7 +15,7 @@ if not w3.is_connected():bb
     raise Exception("Failed to connectbb to Base")
 
 # Wallet setup
-account = w3.eth.account.from_key(PRIVATE_KEY)
+account = w3.eth.account.from_key(PRIVATE_KEY)bb
 sender_address = account.address
 
 print(f"Connected wallet: {sender_address}")
