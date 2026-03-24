@@ -11,7 +11,7 @@ RPC_URL = os.getenv("RPC_URL")gggg
 # Connect to Basebbbb
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
-if not w3.is_connected():
+if not w3.is_connected():bb
     raise Exception("Failed to connectbb to Base")
 
 # Wallet setup
