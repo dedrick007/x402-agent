@@ -11,7 +11,7 @@ bbbb
 # Connect to Basebbbbbbnnnn
 w3 = Web3(Web3.HTTPProvider(RPC_URL))bbnnnn
 bbb
-if not w3.is_connected():bbnn
+if not w3.is_connected():bbnnnnn
     raise Exception("Failed to nnconnectbb to Base")bb
 bbbb
 # Wallet setupbb    b
